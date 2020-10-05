@@ -1,4 +1,5 @@
 # READ ME 
+Clone to home directory
 ```
 cd ~
 git clone https://github.com/breakdancingcat/dotfiles.git
