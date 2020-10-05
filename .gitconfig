@@ -1,0 +1,16 @@
+[user]
+	email = ft8196@wayne.edu
+	name = Jenny Porada
+[core]
+	editor = vim
+	excludesfile = /Users/ft8196/.gitignore_global
+[alias]
+	up = pull --rebase --autostash
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/ft8196/.stCommitMsg
