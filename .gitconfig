@@ -1,0 +1,11 @@
+[user]
+	email = jennyingles@gmail.com
+	name = Jenny Porada
+[core]
+	editor = vim
+[alias]
+	up = pull --rebase --autostash
+[diff]
+    tool = vimdiff
+[merge]
+    tool = vimdif
