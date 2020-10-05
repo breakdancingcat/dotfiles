@@ -18,3 +18,4 @@ ln -s dotfiles/.vimrc .
 * Pathogen package management https://github.com/tpope/vim-pathogen
 * NerdTree https://github.com/preservim/nerdtree
 * Blade syntax highlighting https://github.com/jwalton512/vim-blade
+* Color schemes https://github.com/flazz/vim-colorschemes
