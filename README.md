@@ -1,4 +1,4 @@
-# dotfiles
+# README 
 ```
 cd ~
 git clone https://github.com/breakdancingcat/dotfiles
