@@ -1,6 +1,9 @@
 " Pathogen
 execute pathogen#infect()
-filetype plugin indent on
+
+" Enable filetype plugins
+filetype plugin on
+filetype indent on
 
 " Don't wrap
 set nowrap
@@ -19,7 +22,9 @@ set backspace=indent,eol,start
 
 " Switch syntax highlighting on
 syntax on
-" syntax sync
+
+" Enable syntax highlighting
+syntax enable
 
 " Enable file type detection and do language-dependent indenting.
 filetype plugin indent on
@@ -64,6 +69,31 @@ set mouse=a
 " Display filepath
 set statusline=%{expand('%:p:h:t')}/%t
 
-set clipboard=unnamed
+"Always show current position
+set ruler
+
+"Clipboard stuff
+set clipboard=unnamedplus
 
 let g:vim_markdown_folding_disabled = 1
+
+" Ignore case when searching
+set ignorecase
+
+" Highlight search results
+set hlsearch
+
+" Don't redraw while executing macros (good performance config)
+set lazyredraw
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Blade configuration 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Define some single Blade directives. This variable is used for highlighting only.
+let g:blade_custom_directives = ['datetime', 'javascript']
+
+" Define pairs of Blade directives. This variable is used for highlighting and indentation.
+let g:blade_custom_directives_pairs = {
+      \   'markdown': 'endmarkdown',
+      \   'cache': 'endcache',
+      \ }
