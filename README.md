@@ -4,7 +4,8 @@ cd ~
 git clone https://github.com/breakdancingcat/dotfiles.git
 ```
 
-## Make symlinks 
+## Use these files
+Delete any existing files and create symlinks 
 ```
 ln -s dotfiles/.bash_profile .
 ln -s dotfiles/.bashrc .
