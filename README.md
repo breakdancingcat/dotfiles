@@ -18,4 +18,7 @@ ln -s dotfiles/.vimrc .
 * Pathogen package management https://github.com/tpope/vim-pathogen
 * NerdTree https://github.com/preservim/nerdtree
 * Blade syntax highlighting https://github.com/jwalton512/vim-blade
-* Color schemes https://github.com/flazz/vim-colorschemes
+* iTerm theme https://github.com/Murderlon/cyberpunk-iterm
+
+## /.bash_it/themes/sexy
+* Change line 17 to tput setaf 7 to make the preposition color white
