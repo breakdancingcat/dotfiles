@@ -8,7 +8,7 @@ case $- in
 esac
 
 # Path to the bash it configuration
-export BASH_IT="/Users/jennyporada/.bash_it"
+# export BASH_IT="/Users/jennyporada/.bash_it"
 export BASH_IT="/Users/ft8196/.bash_it"
 
 # Lock and Load a custom theme file.
@@ -64,5 +64,9 @@ export SCM_CHECK=true
 # Uncomment this to make Bash-it create alias reload.
 # export BASH_IT_RELOAD_LEGACY=1
 
+PATH=node_modules/.bin:$PATH
+
 # Load Bash It
 source "$BASH_IT"/bash_it.sh
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
