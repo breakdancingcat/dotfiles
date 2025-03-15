@@ -70,3 +70,13 @@ PATH=node_modules/.bin:$PATH
 source "$BASH_IT"/bash_it.sh
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# Created by `pipx` on 2024-05-15 02:31:59
+export PATH="$PATH:/Users/ft8196/.local/bin"
+
+eval "$(/usr/local/bin/brew shellenv)"
+
+eval "$(/usr/local/bin/brew shellenv)"
+
+# Docker stuff
+export WSU_API_KEY="wild-wayne"

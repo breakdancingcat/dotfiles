@@ -11,6 +11,9 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+autocmd Filetype css setlocal tabstop=4 shiftwidth=4
+autocmd Filetype scss setlocal tabstop=4 shiftwidth=4
+
 " Turn off underline/bold/italic in vim html syntax
 let html_no_rendering=1
 
