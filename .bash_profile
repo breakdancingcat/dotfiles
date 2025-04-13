@@ -20,20 +20,15 @@ export BASH_IT_THEME='sexy'
 # cloned bash-it with a remote other than origin such as `bash-it`.
 # export BASH_IT_REMOTE='bash-it'
 
-# Your place for hosting Git repos. I use this for private repos.
-export GIT_HOSTING='git@git.domain.com'
-
 # Don't check mail when opening terminal.
 unset MAILCHECK
-
-# Change this to your console based IRC client of choice.
-export IRC_CLIENT='irssi'
 
 # Set this to the command you use for todo.txt-cli
 export TODO="t"
 
 # Set this to false to turn off version control status checking within the prompt for all themes
 export SCM_CHECK=true
+
 # Set to actual location of gitstatus directory if installed
 #export SCM_GIT_GITSTATUS_DIR="$HOME/gitstatus"
 # per default gitstatus uses 2 times as many threads as CPU cores, you can change this here if you must
@@ -74,9 +69,16 @@ source "$BASH_IT"/bash_it.sh
 # Created by `pipx` on 2024-05-15 02:31:59
 export PATH="$PATH:/Users/ft8196/.local/bin"
 
-eval "$(/usr/local/bin/brew shellenv)"
-
-eval "$(/usr/local/bin/brew shellenv)"
-
 # Docker stuff
 export WSU_API_KEY="wild-wayne"
+
+# Trigger ~/.bashrc commands
+. ~/.bashrc
+
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+#alias
+alias ls='ls -G'
+alias ll='ls -al'
