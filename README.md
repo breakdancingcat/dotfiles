@@ -52,7 +52,7 @@ git clone git@github.com:bkad/CamelCaseMotion.git ~/.vim/bundle/CamelCaseMotion
 
 ## Using config files
 Delete any existing files and create symlinks 
-```
+```bash
 ln -s dotfiles/.bash_profile . &&
 ln -s dotfiles/.bashrc . &&
 ln -s dotfiles/.gitconfig . &&
